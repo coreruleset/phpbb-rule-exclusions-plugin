@@ -6,10 +6,6 @@ This plugin contains rule exclusions for [phpBB](https://www.phpbb.com/), the
 flat-forum bulletin board software solution, so it can be run flawlessly
 togather with OWASP ModSecurity Core Rule Set (CRS).
 
-## Prerequisities
-
- * CRS version 4.0 or newer (or see "Preparation for older installations" below)
-
 ## Installation
 
 For full and up to date instructions for the different available plugin
