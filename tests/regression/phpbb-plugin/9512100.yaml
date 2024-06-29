@@ -1,6 +1,6 @@
 ---
 meta:
-  author: "Felipe Zipitria"
+  author: "Felipe Zipitria, azurit"
   description: "phpbb Plugin"
   enabled: true
   name: 9512100.yaml
@@ -13,11 +13,12 @@ tests:
             dest_addr: 127.0.0.1
             headers:
               Host: localhost
-              User-Agent: OWASP CRS
+              User-Agent: "OWASP CRS test agent"
               Accept: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
             port: 80
             method: POST
-            uri: /ucp.php?mode=login
+            version: HTTP/1.1
+            uri: /post/ucp.php?mode=login
             data: |
               redirect=https://localhost
           output:
