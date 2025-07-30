@@ -2,7 +2,6 @@
 meta:
   author: "Felipe Zipitria, azurit"
   description: "phpbb Plugin"
-  enabled: true
   rule_id: 9512100
 tests:
   - test_id: 1
